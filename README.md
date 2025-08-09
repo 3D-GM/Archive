@@ -1,2 +1,2 @@
 # Archive
-MRG File Archive
+Multiple Resource Group (`.MRG`) File Archive
