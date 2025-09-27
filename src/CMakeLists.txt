@@ -1,0 +1,5 @@
+add_subdirectory(mrg)
+add_executable(mrgtool mrgtool.cpp)
+target_link_libraries(mrgtool PRIVATE mrg)
+target_include_directories(mrgtool PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/mrg)
+set_target_properties(mrgtool PROPERTIES CXX_STANDARD 17)

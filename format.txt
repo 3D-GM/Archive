@@ -1,0 +1,21 @@
+// ARCHIVE HEADER
+  4 - File Data Offset
+  4 - Number Of Sub-Folders at the Root level
+  
+// DIRECTORY
+  // for each sub-folder
+    4 - Length of the sub-folder and all its entries
+    X - Folder Name
+    1 - null Folder Name Terminator
+    4 - Number Of Files in this sub-folder
+    
+    // for each file in this sub-folder
+      4 - File ID in this sub-folder
+      4 - File Offset
+      4 - File Length
+      X - Filename
+      1 - null Filename Terminator
+      
+// FILE DATA
+  // for each file 
+    X - File Data

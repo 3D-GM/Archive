@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Bizzi/Documents/GitHub/Archive/src/cmake_install.cmake",
+		"C:/Users/Bizzi/Documents/GitHub/Archive/src/src/cmake_install.cmake",
+		"C:/Users/Bizzi/Documents/GitHub/Archive/src/src/mrg/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
